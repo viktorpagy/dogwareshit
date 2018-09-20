@@ -1,0 +1,51 @@
+#pragma once
+typedef unsigned __int16 offset16;
+namespace OFFSETS
+{
+	extern offset16 m_iHealth;
+	extern offset16 m_fFlags;
+	extern offset16 m_vecVelocity;
+	extern offset16 m_flLowerBodyYawTarget;
+	extern offset16 deadflag;
+	extern offset16 m_vecOrigin;
+	extern offset16 m_iTeamNum;
+	extern offset16 m_nTickBase;
+	extern offset16 m_bDormant;
+	extern offset16 animstate;
+	extern offset16 m_Collision;
+	extern offset16 m_angEyeAngles;
+	extern offset16 m_flSimulationTime;
+	extern offset16 m_vecViewOffset;
+	extern offset16 m_dwBoneMatrix;
+	extern offset16 m_aimPunchAngle;
+	extern offset16 m_bGunGameImmunity;
+	extern offset16 m_nForceBone;
+	extern offset16 m_flPoseParameter;
+	extern 	offset16 m_bClientSideAnimation;
+	extern DWORD dwGlowObjectManager;
+	extern offset16 m_flNextPrimaryAttack;
+	extern offset16 m_flNextAttack;
+	extern offset16 m_hActiveWeapon;
+	extern offset16 m_ArmorValue;
+	extern offset16 m_bHasHelmet;
+	extern offset16 m_iObserverMode;
+	extern offset16 m_bIsScoped;
+	extern DWORD m_iAccount;
+	extern offset16 m_flCycle;
+	extern offset16 m_nSequence;
+	extern offset16 m_iPlayerC4;
+	extern offset16 dwPlayerResource;
+	extern offset16 m_iItemDefinitionIndex;
+	extern offset16 m_lifeState;
+	extern offset16 m_flPostponeFireReadyTime;
+	extern offset16 m_fThrowTime;
+	extern offset16 m_bPinPulled;
+	extern offset16 m_MoveType;
+	extern offset16 m_viewPunchAngle;
+	extern offset16 m_hMyWearables;
+	extern uintptr_t m_hWeaponWorldModel;
+	extern uintptr_t m_nModelIndex;
+	extern uintptr_t m_iViewModelIndex;
+	extern uintptr_t m_iClip1;
+	void InitOffsets();
+}

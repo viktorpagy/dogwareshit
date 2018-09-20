@@ -1,0 +1,42 @@
+﻿E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (sorrow.cc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Aimbot.cpp
+  AntiAim.cpp
+  AutoWall.cpp
+  Backtracking.cpp
+  Chams.cpp
+  EnginePred.cpp
+  EventListener.cpp
+  FakeLag.cpp
+  GrenadePrediction.cpp
+  Movement.cpp
+  Resolver.cpp
+  Singleton.h
+  Visuals.cpp
+  main.cpp
+  menu_commands.cpp
+  menu_framework.cpp
+  menu_init.cpp
+  menu_objects.cpp
+  recv.cpp
+  CGlobalVars.cpp
+  Compiling...
+  sdk.cpp
+  hooks.cpp
+  Skinchanger.cpp
+  general_utils.cpp
+  input_handler.cpp
+  interfaces.cpp
+  logging.cpp
+  math.cpp
+  NetvarHookManager.cpp
+  offsets.cpp
+  render.cpp
+  spoofedconvar.cpp
+  variables.cpp
+  vmt.cpp
+  Generating code
+  2825 of 2825 functions (100.0%) were compiled.
+    259 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pener SDK.vcxproj -> E:\Users\Viktor\Desktop\Homework-master\Release\cheat.dll
